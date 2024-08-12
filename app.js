@@ -6,6 +6,11 @@ const elFiltersIcon = document.querySelector('.filters-region-icon');
 
 // LOCALSTORAGE
 document.addEventListener('DOMContentLoaded', function() {
+    // SAQLANGAN DARK MODE HOLATINI TEKSHIRISH
+    if (darkMode === 'enabled') {
+        body.classList.add('dark-mode');
+    }
+
     elDarkToggleButton.addEventListener('click', function() {
         body.classList.toggle('dark-mode');
         if (body.classList.contains('dark-mode')) {
