@@ -6,18 +6,6 @@ const elFiltersIcon = document.querySelector('.filters-region-icon');
 
 // LOCALSTORAGE
 document.addEventListener('DOMContentLoaded', function() {
-    // SAHIFA YUKLANAYOTGANDA TRANSITION EFFEKTINI OLIB TASHLASH
-    body.classList.add('no-transition');
-
-    if (darkMode === 'enabled') {
-        body.classList.add('dark-mode');
-    }
-
-    // SAHIFA YUKLANGANDAN KEYIN TRANSITION EFFEKTINI QAYTA QO'SHISH
-    setTimeout(() => {
-        body.classList.remove('no-transition');
-    }, 10);
-
     elDarkToggleButton.addEventListener('click', function() {
         body.classList.toggle('dark-mode');
         if (body.classList.contains('dark-mode')) {

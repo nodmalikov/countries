@@ -5,7 +5,6 @@
     --bg-color: #fafafa;
     --bg-color-light: #fff;
     --font-family: "Nunito Sans", "Arial", sans-serif;
-    --transition-time: 0.3s;
 }
 
 .dark-mode {
@@ -78,7 +77,6 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: var(--bg-color-light);
-    transition: background-color var(--transition-time) ease;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06)
 }
 
@@ -96,7 +94,6 @@ img {
     display: block;
     text-decoration: none;
     white-space: nowrap;
-    transition: color var(--transition-time) ease;
     white-space: nowrap;
 }
 
@@ -125,7 +122,6 @@ img {
     font-size: 16px;
     line-height: normal;
     color: var(--text-color);
-    transition: color var(--transition-time) ease;
 }
 
 /* HERO */
@@ -148,7 +144,6 @@ img {
     width: 18px;
     height: 18px;
     color: var(--text-light-color);
-    transition: color var(--transition-time) ease;
 }
 
 .filters-search-input {
@@ -162,12 +157,10 @@ img {
     color: var(--text-color);
     min-width: 480px;
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
-    transition: color var(--transition-time) ease, background-color var(--transition-time) ease;
 }
 
 .filters-search-input::placeholder {
     color: var(--text-light-color);
-    transition: color var(--transition-time) ease;
 }
 
 .filters-region-wrapper {
@@ -182,12 +175,10 @@ img {
     color: var(--text-color);
     border: 0;
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
-    transition: color var(--transition-time) ease, background-color var(--transition-time) ease;
 }
 
 .filters-region-icon {
     position: absolute;
-    transition: color var(--transition-time) ease, transform var(--transition-time) ease;
     top: 22px;
     right: 18px;
 }
@@ -213,7 +204,6 @@ img {
     overflow: hidden;
     background-color: var(--bg-color-light);
     box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
-    transition: background-color var(--transition-time) ease;
 }
 
 .flag-img {
@@ -236,7 +226,6 @@ img {
     margin-bottom: 16px;
     display: block;
     text-decoration: none;
-    transition: color var(--transition-time) ease;
 }
 
 .flag-description {
@@ -255,7 +244,6 @@ img {
 
 .flag-description-item dt, dd {
     color: var(--text-color);
-    transition: color var(--transition-time) ease;
 }
 
 .flag-description-item dt {
@@ -280,7 +268,6 @@ img {
     background-color: var(--bg-color-light);
     margin-bottom: 80px;
     border-radius: 6px;
-    transition: color var(--transition-time) ease, background-color var(--transition-time) ease;
 }
 
 .about-back-link svg {
@@ -288,7 +275,6 @@ img {
     height: 20px;
     object-fit: contain;
     color: var(--text-color);
-    transition: color var(--transition-time) ease;
 }
 
 .about-back-link span {
@@ -297,7 +283,6 @@ img {
     font-size: 16px;
     line-height: 20px;
     color: var(--text-color);
-    transition: color var(--transition-time) ease;
 }
 
 .about-inner {
@@ -316,7 +301,6 @@ img {
     font-size: 32px;
     line-height: normal;
     color: var(--text-color);
-    transition: color var(--transition-time) ease;
     margin-top: 0;
     margin-bottom: 23px;
 }
@@ -333,7 +317,6 @@ img {
     font-size: 16px;
     line-height: 32px;
     color: var(--text-color);
-    transition: color var(--transition-time) ease;
 }
 
 .about-flag-description dd {
@@ -359,7 +342,6 @@ img {
     font-size: 16px;
     line-height: 24px;
     color: var(--text-color);
-    transition: color var(--transition-time) ease;
     margin: 0;
     white-space: nowrap;
 }
@@ -379,7 +361,6 @@ img {
     line-height: normal;
     padding: 5px 27px;
     background-color: var(--bg-color-light);
-    transition: color var(--transition-time) ease, background-color var(--transition-time) ease;
     border-radius: 2px;
     display: block;
 }
