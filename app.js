@@ -23,20 +23,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// FOCUS EVENT UCHUN LISTENER
-elFiltersSelect.addEventListener('focus', function () {
-    elFiltersIcon.classList.add('filters-icon-rotate');
-});
+if(elFiltersSelect) {
+    // FOCUS EVENT UCHUN LISTENER
+    elFiltersSelect.addEventListener('focus', function () {
+        elFiltersIcon.classList.add('filters-icon-rotate');
+    });
 
-// BLUR EVENT UCHUN LISTENER (FOCUS HOLATIDAN CHIQQANDA)
-elFiltersSelect.addEventListener('blur', function () {
-    elFiltersIcon.classList.remove('filters-icon-rotate');
-});
+    // BLUR EVENT UCHUN LISTENER (FOCUS HOLATIDAN CHIQQANDA)
+    elFiltersSelect.addEventListener('blur', function () {
+        elFiltersIcon.classList.remove('filters-icon-rotate');
+    });
 
-// CHANGE EVENT UCHUN LISTENER (OPTION TANLANGANDA)
-elFiltersSelect.addEventListener('change', function () {
-    elFiltersIcon.classList.remove('filters-icon-rotate');
-});
+    // CHANGE EVENT UCHUN LISTENER (OPTION TANLANGANDA)
+    elFiltersSelect.addEventListener('change', function () {
+        elFiltersIcon.classList.remove('filters-icon-rotate');
+    });
+}
 
 // SCROLL
 window.onscroll = function() {
