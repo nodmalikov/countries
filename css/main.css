@@ -41,6 +41,32 @@ body {
     line-height: 16px;
 }
 
+/* LOADER */
+#loader {
+    border: 12px solid var(--text-color);
+    border-top: 12px solid var(--bg-color);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+.center {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 110;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 img {
     max-width: 100%;
     height: auto;
