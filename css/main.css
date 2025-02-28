@@ -167,6 +167,10 @@ img {
     color: var(--text-light-color);
 }
 
+.filters-search-input[type='search']::-webkit-search-cancel-button {
+	display: none;
+}
+
 .filters-region-wrapper {
     position: relative;
 }
